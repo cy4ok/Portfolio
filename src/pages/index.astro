@@ -9,17 +9,17 @@
 		<title>Портфолио Frontend разработчика</title>
 	</head>
 	<body>
-		<div class="mx-auto bg-[url('/mainbg.jpg')]">
+		<div class="flex flex-col justify-center items-center mx-auto bg-[url('/mainbg.jpg')]">
 			<header class="flex justify-between">
-				<img src="/logo.png" class="flex w-[80px] h-[80px] m-4"/>
+				<img src="/logo.png" class="w-[80px] h-[80px] m-4 absolute left-0"/>
 				<h1 class="flex m-8 text-white font-bold text-6xl">Василий Смирнов</h1>
-					<ul class="flex m-4">
+					<ul class="flex m-4 absolute right-0">
 						<li class="m-2"><img src="/icons8-mail-50.png" alt="mail"/></li>
 						<li class="m-2"><img src="/icons8-telegram-app-50.png" alt="telegram"/></li>
 						<li class="m-2"><img src="/icons8-vk-50.png" alt="vkontakte"/></li>
 					</ul>
 			</header>
-			<div class="flex flex-col justify-center m-8">
+			<div class="flex flex-col justify-end m-8">
 				<h1 class="flex justify-center mt-8 text-white text-4xl ">Обо мне</h1>
 				<div class="flex justify-center">
 					<img class="flex px-16" src="/my.png" alt="avatar"/>
@@ -34,14 +34,14 @@
 					</p>
 				</div>
 			</div>
-			<div class="flex flex-col mt-8">
+			<div class="flex flex-col mt-8 max-w-4xl">
 				<h1 class="flex justify-center text-white text-4xl">Мои работы</h1>
-				<div class="flex justify-center flex-col">
-					<h3 class="flex justify-center">Заголовок</h3>
-					<span class="flex justify-center">Описание страницы</span>
-					<img src="" /> 
-					<button>
-						Открыть страницу
+				<div class="flex flex-col justify-center">
+					<h3 class="text-white">Ava</h3>
+					<span class="text-white">цифровой маркетинг, креативный дизайн</span>
+					<img src="/src/images/Ava.jpg" /> 
+					<button class="text-white">
+						<a href="ava">Открыть страницу</a>
 					</button>
 				</div>
 			</div>
